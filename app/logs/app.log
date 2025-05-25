@@ -1,0 +1,31 @@
+2025-05-25 14:45:46 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:45:47 | INFO | app_logger | Consultando Ìtems
+2025-05-25 14:45:53 | INFO | app_logger | Creando Ìtem: string
+2025-05-25 14:46:00 | INFO | app_logger | Creando Ìtem: string
+2025-05-25 14:46:00 | INFO | app_logger | Õtem creado con ID: 1
+2025-05-25 14:49:15 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:49:32 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:53:30 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:54:41 | INFO | app_logger | Actualizando Ìtem con ID: 1
+2025-05-25 14:54:41 | INFO | app_logger | Õtem actualizado exitosamente: nombre
+2025-05-25 14:54:58 | INFO | app_logger | Creando Ìtem: string
+2025-05-25 14:54:58 | ERROR | app_logger | Error de integridad al crear Ìtem 'string': (sqlite3.IntegrityError) UNIQUE constraint failed: item.id
+[SQL: INSERT INTO item (id, name, description) VALUES (?, ?, ?)]
+[parameters: (1, 'string', 'string')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-25 14:54:58 | ERROR | app_logger | Error en endpoint create: Error de integridad al crear Ìtem 'string': (sqlite3.IntegrityError) UNIQUE constraint failed: item.id
+[SQL: INSERT INTO item (id, name, description) VALUES (?, ?, ?)]
+[parameters: (1, 'string', 'string')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-25 14:56:10 | INFO | app_logger | Eliminando Ìtem con ID: 2
+2025-05-25 14:56:10 | WARNING | app_logger | No se encontrÛ Ìtem con ID: 2 para eliminar
+2025-05-25 14:58:44 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:59:17 | INFO | app_logger | Base de datos inicializada
+2025-05-25 14:59:47 | INFO | app_logger | Eliminando √≠tem con ID: 2
+2025-05-25 14:59:47 | WARNING | app_logger | No se encontr√≥ √≠tem con ID: 2 para eliminar
+2025-05-25 15:00:22 | INFO | app_logger | Creando √≠tem: holi
+2025-05-25 15:00:22 | INFO | app_logger | √çtem creado exitosamente con ID: 2
+2025-05-25 15:00:32 | INFO | app_logger | Consultando √≠tem con ID: 2
+2025-05-25 15:00:32 | INFO | app_logger | √çtem encontrado: holi
+2025-05-25 15:00:38 | INFO | app_logger | Eliminando √≠tem con ID: 2
+2025-05-25 15:00:38 | INFO | app_logger | √çtem eliminado exitosamente: holi
